@@ -67,8 +67,8 @@ MonoBehaviour:
     y: 0
     width: 1101
     height: 560
-  m_MinSize: {x: 200, y: 221}
-  m_MaxSize: {x: 4000, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -97,7 +97,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 221}
   m_MaxSize: {x: 4000, y: 4021}
   vertical: 0
-  controlID: 127
+  controlID: 99
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 503, y: 321}
   m_MaxSize: {x: 16192, y: 12117}
   vertical: 0
-  controlID: 66
+  controlID: 130
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -297,7 +297,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 321}
   m_MaxSize: {x: 8096, y: 12117}
   vertical: 1
-  controlID: 67
+  controlID: 16
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 68
+  controlID: 17
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -391,23 +391,23 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BAL/AssetStores/Sounds
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BAL/AssetStores/Sounds
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\baldr\OneDrive\Dokumenter\GitHub\MainPCSolaceRepo\SolaceRemake\My
     project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 526e0000
-    m_LastClickedID: 28242
-    m_ExpandedIDs: 00000000466e0000486e00004a6e0000
+    scrollPos: {x: 0, y: 31}
+    m_SelectedIDs: 906e0000
+    m_LastClickedID: 28304
+    m_ExpandedIDs: 00000000906e0000926e0000946e000048700000527000001471000016710000187100002071000024710000287100002e72000032730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -435,7 +435,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000466e0000486e00004a6e0000
+    m_ExpandedIDs: 00000000906e0000926e0000946e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -462,7 +462,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -567,7 +567,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 20fbffff
+      m_ExpandedIDs: 20fbffff286e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -872,9 +872,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.1409879, y: -0.51960695, z: 0.16866735}
+    m_Target: {x: 8.518706, y: 1.5431182, z: 0.23949848}
     speed: 2
-    m_Value: {x: 2.1409879, y: -0.51960695, z: 0.16866735}
+    m_Value: {x: 8.273145, y: 1.411103, z: 0.2430075}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -925,9 +925,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 6.870848
+    m_Target: 8.148699
     speed: 2
-    m_Value: 6.870848
+    m_Value: 7.797798
   m_Ortho:
     m_Target: 1
     speed: 2
