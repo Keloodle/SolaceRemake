@@ -22,13 +22,14 @@ public class RotationManager : MonoBehaviour
         {
             Destroy(this);
         }
-
-        activeScene = SceneManager.GetActiveScene();
     }
 
 
-    void Start()
+    void Update()
     {
+        activeScene = SceneManager.GetActiveScene();
+
+
         if (activeScene.buildIndex == 0)
         {
             Screen.orientation = ScreenOrientation.Portrait;
