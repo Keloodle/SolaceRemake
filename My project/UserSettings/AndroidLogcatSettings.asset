@@ -1,19 +1,13 @@
 {
     "m_SelectedDeviceId": "R3CR60C640W",
     "m_SelectedPackage": {
-        "deviceId": "",
-        "name": "",
-        "processId": 0,
+        "deviceId": "R3CR60C640W",
+        "name": "com.BareMinimumGames.SolaceMobile",
+        "processId": 24687,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
-        {
-            "deviceId": "R3CR60C640W",
-            "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 26319,
-            "exited": true
-        },
         {
             "deviceId": "R3CR60C640W",
             "name": "com.sec.android.app.launcher",
@@ -23,20 +17,44 @@
         {
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 27290,
+            "processId": 19974,
             "exited": true
         },
         {
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 28893,
+            "processId": 20897,
             "exited": true
         },
         {
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 29524,
+            "processId": 21650,
             "exited": true
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 22248,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 23425,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 23935,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 24687,
+            "exited": false
         }
     ],
     "m_Tags": {

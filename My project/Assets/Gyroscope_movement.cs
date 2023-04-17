@@ -15,6 +15,7 @@ public class Gyroscope_movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(-Input.gyro.attitude.x * moveSpeed, -Input.gyro.attitude.y * moveSpeed);
+        rb.velocity = new Vector2(-Input.gyro.attitude.x * moveSpeed, -Input.gyro.attitude.y * moveSpeed + 2.95f);
+       
     }
 }
