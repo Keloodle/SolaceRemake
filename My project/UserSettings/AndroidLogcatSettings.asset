@@ -1,53 +1,53 @@
 {
     "m_SelectedDeviceId": "R3CR60C640W",
     "m_SelectedPackage": {
-        "processId": 29524,
-        "name": "com.BareMinimumGames.SolaceMobile",
         "deviceId": "R3CR60C640W",
+        "name": "com.BareMinimumGames.SolaceMobile",
+        "processId": 2729,
         "exited": false
     },
     "m_SelectedPriority": 0,
     "m_KnownPackagesForSerialization": [
         {
             "deviceId": "R3CR60C640W",
-            "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 11316,
-            "exited": true
-            "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 25441,
-        },
-        {
-            "exited": true
-            "deviceId": "R3CR60C640W",
-            "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 2871,
             "name": "com.sec.android.app.launcher",
-            "deviceId": "R3CR60C640W",
-        {
-        },
-            "exited": true
-            "processId": 26319,
-            "deviceId": "R3CR60C640W",
-        {
-        },
+            "processId": 2871,
             "exited": false
         },
         {
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 27290,
+            "processId": 23425,
             "exited": true
         },
         {
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
-            "processId": 28893,
-            "exited": false
-        {
-            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 23935,
+            "exited": true
         },
+        {
             "deviceId": "R3CR60C640W",
-            "processId": 29524,
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 24687,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 27450,
+            "exited": true
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 32484,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 2729,
             "exited": false
         }
     ],
