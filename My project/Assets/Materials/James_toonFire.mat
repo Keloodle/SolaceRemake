@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: James_toonFire
+  m_Shader: {fileID: 4800000, guid: 0327e73baf970824baf07f114e45a024, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fire:
+        m_Texture: {fileID: 2800000, guid: ca28a6baf78616145ab7c03ffb54833e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a33002b8071cfbf4f8e9e44de89f1987, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: ca28a6baf78616145ab7c03ffb54833e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AlphaCutoff: 0.5
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _Float1: 1.49
+    - _Float2: 0.4
+    - _Speed: -0.33
+    - _Spherehardness: 0.3
+    - _Sphereradius: 1.2
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    - __dirty: 0
+    - _fireDetail: 9.51
+    - _firePower: 0.498
+    - _fireTreshold: -0.784
+    - _firepower: 10
+    - _noiseTiling: 0.765
+    - _speedUp: -0.1314
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Colour: {r: 3.1, g: 1.1, b: 0, a: 0}
+    - _Colourbottom: {r: 0.7529412, g: 0.613316, b: 0.031372566, a: 1}
+    - _Colourtop: {r: 1.9446927, g: 0.29854318, b: 0, a: 0.34117648}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Spherelocation: {r: 0, g: -0.2, b: 0, a: 0}
+    - _Tiling: {r: 1, g: 2, b: 0, a: 0}
+    - _Vector0: {r: 0, g: -0.45, b: 0, a: 0}
+    - _minomaxnminomaxn: {r: 0.5, g: 1.11, b: 0.12, a: 1.02}
+    - _noiseTiling: {r: 0.25, g: 0.25, b: 0, a: 0}
+  m_BuildTextureStacks: []
