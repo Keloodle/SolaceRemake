@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 119
+  controlID: 59
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 66
+  controlID: 60
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 67
+  controlID: 61
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,13 +318,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BAL/UI/IngameUI/PlayerStuff
+    - Assets/BAL/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BAL/UI/IngameUI/PlayerStuff
+  - Assets/BAL/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\baldr\OneDrive\Dokumenter\GitHub\MainPCSolaceRepo\SolaceRemake\My
     project
@@ -332,9 +332,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 87}
-    m_SelectedIDs: ee750000
-    m_LastClickedID: 30190
-    m_ExpandedIDs: 000000000475000006750000087500000a7500000c7500000e750000107500002e750000387500008a750000ee750000
+    m_SelectedIDs: 54760000
+    m_LastClickedID: 30292
+    m_ExpandedIDs: 000000000e76000010760000127600001476000016760000187600001a7600005a76000070760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -362,7 +362,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000475000006750000087500000a7500000c7500000e75000010750000
+    m_ExpandedIDs: 000000000e76000010760000127600001476000016760000187600001a760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -491,10 +491,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 73}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 7afaffffb0faffff047000008e700000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 1a700000
+      m_LastClickedID: 28698
+      m_ExpandedIDs: b6faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -799,9 +799,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 716.65186, y: 293.14325, z: 3.6697967}
+    m_Target: {x: 5.8900223, y: -5.9461555, z: 18.100592}
     speed: 2
-    m_Value: {x: 716.65186, y: 293.14325, z: 3.6697967}
+    m_Value: {x: 5.7742543, y: -6.087432, z: 18.249918}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -852,9 +852,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 319.54865
+    m_Target: 7.134592
     speed: 2
-    m_Value: 319.54865
+    m_Value: 7.470777
   m_Ortho:
     m_Target: 1
     speed: 2
