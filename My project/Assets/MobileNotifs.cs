@@ -27,6 +27,7 @@ public class MobileNotifs : MonoBehaviour
         notification.Text = "Buy our stuff!";
         notification.FireTime = System.DateTime.Now.AddSeconds(10);
 
+
         //Send the notification
         var id =AndroidNotificationCenter.SendNotification(notification, "channel_id");
 
@@ -36,6 +37,7 @@ public class MobileNotifs : MonoBehaviour
             AndroidNotificationCenter.CancelAllNotifications();
             AndroidNotificationCenter.SendNotification(notification, "channel_id");
         }
+
     }
 
     // Update is called once per frame
