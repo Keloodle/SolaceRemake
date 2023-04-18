@@ -12,7 +12,7 @@ public class PlayerInput : MonoBehaviour
     public Rigidbody2D rb;
 
     public float movementSpeed = 500;
-   
+
 
     [Header("Ground Check")]
     public bool isGrounded = false;
@@ -24,6 +24,23 @@ public class PlayerInput : MonoBehaviour
     private float startHeight = 10000;
 
     public float jumpSpeed = 250;
+
+    private void OnDisable()
+    {
+        PlayerHealth.OnPlayerDeath -= DisablePlayerMovement;
+    }
+
+    private void OnEnable()
+    {
+        PlayerHealth.OnPlayerDeath += DisablePlayerMovement;
+    }
+
+
+
+    private void Start()
+    {
+        EnablePlayerMovement();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -74,4 +91,17 @@ public class PlayerInput : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y + heightOffset), groundedHeight, groundLayer);
     }
+
+    private void DisablePlayerMovement()
+    {
+        //Animator.enabled = false;
+        rb.bodyType = RigidbodyType2D.Static;
+
+    }
+    private void EnablePlayerMovement()
+    {
+        //Animator.enabled = false;
+        rb.bodyType = RigidbodyType2D.Dynamic;
+    }
+
 }
