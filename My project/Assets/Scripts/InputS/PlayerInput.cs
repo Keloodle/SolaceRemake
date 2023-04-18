@@ -25,6 +25,14 @@ public class PlayerInput : MonoBehaviour
 
     public float jumpSpeed = 250;
 
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Coins"))
+        {
+            Destroy(other.gameObject);
+        }
+    }
+
 
     private void Awake()
     {
