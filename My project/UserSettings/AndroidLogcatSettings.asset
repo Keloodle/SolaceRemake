@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "R3CR60C640W",
         "name": "com.BareMinimumGames.SolaceMobile",
-        "processId": 2729,
+        "processId": 22003,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -48,6 +48,30 @@
             "deviceId": "R3CR60C640W",
             "name": "com.BareMinimumGames.SolaceMobile",
             "processId": 2729,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 9264,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 11292,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 13455,
+            "exited": false
+        },
+        {
+            "deviceId": "R3CR60C640W",
+            "name": "com.BareMinimumGames.SolaceMobile",
+            "processId": 22003,
             "exited": false
         }
     ],
